@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "calper"
+version = "0.1.0"
+description = "Проценты: прямые и обратные задачи (add, subtract, find_part, find_rate, find_whole, percent_diff)"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+    { name = "ivanyha", email = "ivan.victorowitch@gmail.com" }
+]
+keywords = ["percent", "percentage", "проценты", "math"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Mathematics",
+]
+
+[project.urls]
+Homepage = "https://github.com/ivanyha/calper"
+Repository = "https://github.com/ivanyha/calper"
+
+[tool.setuptools]
+py-modules = ["calper"]
